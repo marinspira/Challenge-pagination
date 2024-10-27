@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cccccc;
+  margin: 10px;
+}
+
+.item img {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.itens__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.arrows span {
+  cursor: pointer;
+}
